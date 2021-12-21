@@ -1,0 +1,176 @@
+@media screen and (max-width: 375px) {
+    html{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main{
+        height: 100vw;
+    }
+
+    .container-ppal{
+        height: 100vw;
+        margin-bottom: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .navbar{
+        position: relative;
+        margin-top: 0;
+    }
+
+    .menu{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .item{
+        align-self: center;
+        font-size: .7rem;
+        padding: .5rem;
+    }
+
+    .foto-container{
+        padding-top: 2rem;
+        
+    }
+
+    .perfil{
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        border: .125rem solid #3D087B;
+        margin: 1rem;
+    }
+
+    .front-end-principal{
+        display: block;
+        text-align: center;
+    }
+
+    .titulo-container{
+        display: inline;
+        margin-top: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .separacion-linea{
+        display: none;
+    }
+
+    .subtitulo-container{
+        font-size: .7rem;
+        padding-bottom: 1rem;
+    }
+
+    .bloque-2{
+        height: 100vw;
+    }
+
+    .aboutMe{
+        padding-top: 5rem;
+    }
+
+    .titulo-bloque{
+        font-size: 1.3rem;
+        /* white-space: pre-wrap; */
+        padding-top: 3rem;
+        /* margin-top: 3rem;     */
+    }
+
+    .bloque-about-me{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        /* margin-top: 1rem; */
+    }
+
+    .imagen-container{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding-top: 1rem;
+        padding-right: 0;
+    }
+
+    .imagen-about-me{
+        width: 35%;
+        margin: auto;
+    }
+
+    .textos-about-me{
+        width: 100%;
+    }
+    .texto-bloque{
+        width: 80%;
+        text-align: center;
+        font-size: .8rem;
+        margin: auto;
+    }
+
+    .bloque-3{
+        padding-top: 5rem;
+        height: 100vw;
+    }
+
+    .larga{
+        display: none;
+    }
+
+    .tarjetas{
+        padding: 1rem 3rem;
+    }
+
+    .tarjeta-1, .tarjeta-2,
+    .tarjeta-3, .tarjeta-4{
+    font-size: .8rem;
+    width: 150px;
+    height: 90px;
+    padding: .5rem;
+    }
+
+    .texto-final-bloque-3{
+        width: 80%;
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .bloque-4{
+        height: 160vw;
+        flex-direction: column;
+    }
+
+    .bloque-contacto{
+        width: 100%;
+        padding-left: 0;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .titulo-contacto{
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: center;
+        margin-top: -4rem;
+
+    }
+
+    .button{
+        padding: .5rem 2.6rem;
+        font-size: 1rem;
+        white-space: nowrap;
+        margin: auto;
+    }
+
+    .imagen-container-bloque-4{
+      display: none;
+    }
+
+}
+
+
+

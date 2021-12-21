@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin: 2rem;
+}
+
+
+.container-ppal{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./IMG/gif.space.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    position: fixed;
+    height: 4rem;
+    /* background-image: url(./IMG/gif.space.gif);  */
+    width: 100%;
+    padding-top: 1rem;
+    cursor: pointer;
+    z-index: 90000;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2rem
+    
+}
+
+.item{
+    padding: 1rem 1rem 1rem 3rem;
+    list-style: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+
+.foto-container{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding-top: 8rem;
+}
+
+
+.perfil{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: .3rem solid #3D087B;
+    border-radius: 50%;
+
+}
+
+.front-end-principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-container {
+    color: #ffff;
+    font-size: 2.5rem;
+    text-align: center;
+    /* padding-top: 1.5rem; */
+    margin-top: 2.2rem;
+    background-color: #3D087B;
+    font-weight: 300;
+}
+
+.subtitulo-container {
+    color: #ffff;
+    text-align: center;
+    padding-top: .5rem;
+    font-size: 1.3rem;
+}
+
+
+.separacion-linea{
+    display: inline-block;
+    margin-top: 1rem;
+    width: 50%;
+    height: 60px;
+    border-right: 1px solid #ffff;
+}
+
+.bloque-2{
+    background: linear-gradient(to bottom, #000000, #4D108A);
+    width: 100%;
+    height: 80vh;
+}
+
+.titulo-bloque{
+    font-size: 2rem;
+    color: #99DDCC;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.bloque-about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+}
+
+.imagen-container{
+    width: 50%;
+    text-align: right;
+    padding-right: 6rem;
+    padding-top: 2.3rem;
+
+}
+
+.imagen-about-me{
+    width: 34%;
+    /* align-self: center; */
+}
+
+.textos-about-me{
+    width: 50%;
+    padding-top: 1rem;
+
+}
+
+.texto-bloque{
+    width: 70%;
+    color: #ffff;
+    text-align: left;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.larga {
+    margin-top: 3rem;
+    height: 100px;
+}
+
+.bloque-3{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to bottom, #4D108A, #000D6B);
+}
+
+.tarjetas{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 4rem;
+    justify-content: center;
+}
+
+.tarjeta-1, .tarjeta-2,
+.tarjeta-3, .tarjeta-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffff;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 300px;
+    height: 100px;
+    color: #ffff;
+    background: #9C19E0;
+}
+
+.texto-bloque-3{
+    width: 100%;
+
+}
+
+.texto-final-bloque-3 {
+    color: #ffff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
+}
+
+.bloque-4 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #000D6B, #0433AD);
+    margin: auto;
+}
+
+.bloque-contacto{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+    padding-left: 20rem;
+    /* margin: auto; */
+}
+
+.titulo-contacto{
+    color: #99DDCC;
+    font-size: 2.5rem;
+    padding: 1rem;
+
+}
+
+.button{
+    background-color: #9C19E0;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid #292929;
+    color: #ffff;
+}
+
+.imagen-container-bloque-4{
+    width: 40%;
+    text-align: left;
+    padding-right: 6rem;
+    padding-top: 2.3rem; 
+}
+
+.imagen-contacto{
+    width: 50%;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+
+
+
+
